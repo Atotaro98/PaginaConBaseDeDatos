@@ -1,0 +1,177 @@
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.logo{
+  height: 15vmin;
+  pointer-events: none;
+  justify-content: left;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+
+.titulo{
+  font-size: 25px;
+  color: red;
+}
+
+.producto{
+  font-size: 20px;
+  color: orange;
+}
+
+.detallado{
+  font-size: 20px;
+  color:orange;
+}
+
+
+
+.volver{
+  font-size: 30px;
+  color:white;
+}
+
+.detalle{
+  font-size: 25px;
+  color:white;
+}
+
+.display{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* MARGIN 0 AUTO, CONFIGURA EL MARGEN DERECHA E IZQ AUTOMATICAMENTE  */
+.contenedor{
+    
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .display{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .texto-centrado{
+      text-align: center;
+  }
+  .columna{
+      background: #282c34;
+      color: orange;
+      border: 1px solid #282c34;
+      margin: 0 auto;
+      padding: 10px;
+      /* border-radius: 7px; poner bordes curvos */
+      border-radius: 7px;
+      /* box-shadow: 10px -10px 5px #888888; SI ESTA EN NEGATIVO CAMBIA EL LADO DE LA SOMBRA */
+      box-shadow: 10px 10px 5px #888888;
+      width: 23%;
+      box-sizing: border-box;
+      font-size: 20px;
+      margin-top: 20px;
+  }
+  .precio{
+      font-size: 47px;
+      color: orange;
+  }
+  .detalle{
+      background: orange;
+      display: block;
+      padding: 10px;
+      color: white;
+      /* TEXT DECORATION BORRA LA LINEA  */
+      text-decoration: none;
+      border-radius: 4px;
+      /* SEPARA EL BOTON DEL MARGEN */
+      margin-bottom: 10px;
+      font-size: 25px;
+  }
+  
+  .columna h2{
+      margin: 25px;
+      color: white;
+  }
+
+  .descripcion{
+    color: white;
+  }
+  
+  .columna p{
+      margin: 25px;
+  }
+  
+  .columna a{
+      margin: 25px;
+  }
+  
+  .detalle:hover{
+      opacity: 0.7;
+      
+  }
+  
+  @media (max-width:960px){
+      .columna{
+          width: 45%;
+          margin-bottom: 20px;
+      }
+  }
+  @media (max-width:700px){
+          .columna{
+              width: 100%;
+              margin-bottom: 20px;
+          }
+  }
+
+
+.opciones{
+  font-size: 30px;
+  color:black;
+  display: inline;
+}
+
+
+.home{
+  font-size: 30px;
+  color:orange;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.login{
+  font-size: 30px;
+  color:white;
+  margin: 10px;
+  text-decoration: none;
+}
+.registro{
+  font-size: 30px;
+  color:white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.formulario{
+  color: orange;
+}
+
+.info{
+  margin: 10px;
+}
+
+
+.centrado{
+  margin-top: 40px;
+  padding: 20px;
+}
